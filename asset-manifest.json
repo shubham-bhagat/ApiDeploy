@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ApiDeploy/static/css/main.dc0a14bb.chunk.css",
+    "main.js": "/ApiDeploy/static/js/main.98eacf4c.chunk.js",
+    "main.js.map": "/ApiDeploy/static/js/main.98eacf4c.chunk.js.map",
+    "runtime-main.js": "/ApiDeploy/static/js/runtime-main.19935698.js",
+    "runtime-main.js.map": "/ApiDeploy/static/js/runtime-main.19935698.js.map",
+    "static/css/2.f65acde2.chunk.css": "/ApiDeploy/static/css/2.f65acde2.chunk.css",
+    "static/js/2.ae456e4c.chunk.js": "/ApiDeploy/static/js/2.ae456e4c.chunk.js",
+    "static/js/2.ae456e4c.chunk.js.map": "/ApiDeploy/static/js/2.ae456e4c.chunk.js.map",
+    "index.html": "/ApiDeploy/index.html",
+    "precache-manifest.9a01b32a5637c7015e68bec507b96664.js": "/ApiDeploy/precache-manifest.9a01b32a5637c7015e68bec507b96664.js",
+    "service-worker.js": "/ApiDeploy/service-worker.js",
+    "static/css/2.f65acde2.chunk.css.map": "/ApiDeploy/static/css/2.f65acde2.chunk.css.map",
+    "static/css/main.dc0a14bb.chunk.css.map": "/ApiDeploy/static/css/main.dc0a14bb.chunk.css.map",
+    "static/js/2.ae456e4c.chunk.js.LICENSE.txt": "/ApiDeploy/static/js/2.ae456e4c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ApiDeploy/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19935698.js",
+    "static/css/2.f65acde2.chunk.css",
+    "static/js/2.ae456e4c.chunk.js",
+    "static/css/main.dc0a14bb.chunk.css",
+    "static/js/main.98eacf4c.chunk.js"
+  ]
+}
