@@ -1,26 +1,39 @@
-import React from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
+import {Route,Switch,Redirect} from 'react-router-dom';
+import Posts from "./components/posts.jsx";
+import Home from "./components/home.jsx";
+import User from "./components/users.jsx";
+import NotFound from "./components/notFound.jsx";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import NavBar from "./components/navbar";
 
+
+class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <NavBar />
+        <div className="content">
+          <Switch>
+            <Route path="/ApiDeploy/posts" component={Posts} />
+            <Route path="/ApiDeploy/user" component={User} />
+            <Route path="/notfound" component={NotFound}/>
+            <Route path="/ApiDeploy" exact component={Home}/>;
+            <Redirect to="/not-found" />
+          </Switch>
+        </div>
+
+
+        
+        </React.Fragment>
+    );
+  }
+}
+ 
 export default App;
+
+
+
